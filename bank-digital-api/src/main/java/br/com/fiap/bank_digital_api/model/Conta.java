@@ -55,6 +55,9 @@ public class Conta {
     public String getTipo() {
         return tipo;
     }
+    public void setId(Long id){
+        this.id = id;
+    }
 
     @Override
     public String toString() {
