@@ -1,6 +1,6 @@
 package br.com.fiap.bank_digital_api.controller;
 
-import model.Conta;
+import br.com.fiap.bank_digital_api.model.Conta;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,8 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import DTOs.PixDTO;
-import DTOs.SaqueDepositoDTO;
+import br.com.fiap.bank_digital_api.DTOs.PixDTO;
+import br.com.fiap.bank_digital_api.DTOs.SaqueDepositoDTO;
 
 import java.util.ArrayList;
 import java.util.List;

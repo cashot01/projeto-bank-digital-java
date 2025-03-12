@@ -1,4 +1,4 @@
-package model;
+package br.com.fiap.bank_digital_api.model;
 
 import java.util.Date;
 import java.util.Random;
