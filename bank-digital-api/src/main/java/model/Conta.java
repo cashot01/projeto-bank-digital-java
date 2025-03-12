@@ -1,4 +1,4 @@
-package br.com.fiap.bank_digital_api.model;
+package model;
 
 import java.util.Date;
 import java.util.Random;
@@ -48,14 +48,23 @@ public class Conta {
         return saldo_inicial;
     }
 
+    public void setSaldo_inicial(double saldo_inicial) {
+        this.saldo_inicial = saldo_inicial;
+    }
+
     public boolean isAtiva() {
         return ativa;
+    }
+
+    public void setAtiva(boolean ativa) {
+        this.ativa = ativa;
     }
 
     public String getTipo() {
         return tipo;
     }
-    public void setId(Long id){
+
+    public void setId(Long id) {
         this.id = id;
     }
 
